@@ -114,3 +114,8 @@
     flex-direction: column;
   }
 }
+
+.parentCont {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

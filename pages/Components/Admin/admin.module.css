@@ -1,0 +1,57 @@
+.parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: rgb(154, 154, 230);
+    height: fit-content;
+}
+
+.container input {
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.container button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+}
+
+.viewBtn {
+    width: 200px !important;
+    font-size: 18px !important;
+    padding: 3px;
+}
+.container p {
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.container a {
+    color: blue;
+    text-decoration: underline;
+}
+.conf{
+
+    margin-top: -40px;
+}
+.conf p {
+    line-height: 20px;
+    gap: 20px !important;
+    margin: 10px 0 !important;
+}

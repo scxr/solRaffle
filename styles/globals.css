@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #082642;
 }
 
 a {
@@ -13,4 +14,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "RobotoM";
+  src: url("../public/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Monteserrat";
+  src: url("../public/Montserrat-VariableFont_wght.ttf");
 }

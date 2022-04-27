@@ -1,0 +1,71 @@
+.navbar {
+
+    width: 100%;
+    
+    background-color: rgba(71, 238,195, 0.12);
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 2000px;
+
+}
+.navbar .titleContainer {
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3px;
+    gap: 0px;
+    padding-top: 7px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    width:158px;
+    margin-right: 25px;
+    margin-left: -25px;
+
+}
+.twitterBg {
+    height: 43px;
+    width: 43px;
+    border: 1px solid white;
+    color: white;
+    padding: 6px;
+    background-color: #1D9BF0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.discordBg {
+    height: 43px;
+    width: 43px;
+    border: 1px solid white;
+    color: white;
+    padding: 6px;
+    background-color: #5865F2;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.padding {
+    width: 145px;
+}
+
+
+
+@media only screen and (max-width: 1000px)  {
+    .icons {
+        margin-right: -20px;
+        gap: 5px;
+    }
+}

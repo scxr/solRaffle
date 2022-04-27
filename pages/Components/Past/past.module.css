@@ -1,0 +1,75 @@
+.container {
+    max-width: 1260px !important;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    color: white;
+    font-family: "Monteserrat";
+}
+
+.pastCard {
+    height: 422px;
+    width: 283px;
+    background-color: #0A2B4A;
+    border-radius: 12px;
+    text-align: center;
+    transition: 1s;
+
+}
+
+.pastCard img {
+    width: 220px;
+    height: 233px;
+}
+
+.pastCard .info {
+    margin-left: 25px;
+    text-align: left;
+    line-height: 3px;
+    color: white;
+    margin-bottom: 21px;
+    font-weight: 100;
+    font-family: "Poppins";
+}
+.pastCard .desc {
+    font-size: 12px;
+    color: rgba(255, 255,255, 0.7);
+}
+.pastCard img {
+    padding-top: 21px;
+}
+
+.name {
+    font-size: 18px;
+    color: white;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 2000px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    
+    
+}
+
+.pastCard:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:1000px) {
+    .cardContainer {
+        flex-direction: column;
+    }
+    .container {
+        text-align: center;
+    }
+}
+

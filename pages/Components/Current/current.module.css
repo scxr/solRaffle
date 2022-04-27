@@ -1,0 +1,165 @@
+.bal {
+    background-image: linear-gradient(to left,#6DF5AD, #4E44CE);
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+    max-width: 145px;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+.top h1 {
+    color: #7CF7C3;
+    text-shadow: 0px 0px 30px #5155CB;
+    font-family: "RobotoM";
+}
+
+.top button {
+    background-color: transparent;
+    border: 1px solid #FAF5F5;
+    width: 158px;
+    color: white;
+    border-radius: 7px;
+    height: 48px;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10.7%;
+    padding-left: 8.5%;
+    width: 87%;
+    margin: 0 auto;
+}
+.featuredCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.featuredCont img {
+    height: 400px;
+    width: 447px;
+}
+.imgDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.imgDesc p {
+    padding-left: 9%;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.imgDescLower {
+    margin-top: -40px;
+}
+
+.potInfo {
+    background-color: #05192C;
+    width: 370px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 31px rgba(255, 255, 255, 0.23);
+    border-radius: 6px;
+}
+
+.potInfo p {
+    line-height: 20px;
+}
+
+.faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.purchase {
+    font-size: 22px ;
+    line-height: 19px;
+    margin-top: 5%;
+    font-size: 17px;
+    font-family: "Poppins";
+}
+
+.purchase button {
+    background-color: transparent;
+    border: 1px solid #FFFFFF80;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s;
+}
+.purchase button:hover {
+    background-color: #0d365c;
+}
+.info {
+    line-height: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding {
+    width: 200px;
+}
+
+.green {
+    color: #13F093;
+}
+
+.grey { 
+    color: #636363;
+}
+
+.mobCont {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1000px)  {
+    .mid {
+        flex-direction: column;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 105%;
+        margin: 0 auto;
+    }
+
+    .bal {
+        padding: 10px;
+    }
+    
+
+    
+}
